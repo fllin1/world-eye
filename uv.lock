@@ -1967,13 +1967,14 @@ wheels = [
 [[package]]
 name = "world-eye"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "dvc" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "pip" },
     { name = "plotly" },
+    { name = "typer" },
 ]
 
 [package.metadata]
@@ -1983,6 +1984,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.0" },
     { name = "pip", specifier = ">=26.0.1" },
     { name = "plotly", specifier = ">=6.5.2" },
+    { name = "typer", specifier = ">=0.21.1" },
 ]
 
 [[package]]
